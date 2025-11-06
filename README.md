@@ -7,7 +7,7 @@ This project develops a machine learning classifier to predict the presence of h
 To build a predictive model that accurately identifies patients at risk of heart disease based on medical features including age, blood pressure, cholesterol levels, exercise-induced angina, and other clinical indicators.
 
 ## Dataset
-- **Source**: Clinical heart disease dataset
+- **Source**: [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
 - **Size**: 918 patient records
 - **Features**: 12 clinical attributes
 - **Target Variable**: Heart disease presence (binary classification: 0 = No, 1 = Yes)
