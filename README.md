@@ -64,10 +64,10 @@ bash
 pip install pandas numpy scikit-learn matplotlib seaborn
 
 # Required versions (tested on):
-# Python >= 3.8
-# pandas >= 1.3.0
-# numpy >= 1.21.0
-# scikit-learn >= 0.24.0
+- Python >= 3.8
+- pandas >= 1.3.0
+- numpy >= 1.21.0
+- scikit-learn >= 0.24.0
 
 ## Author
 Aniket Bhatia
