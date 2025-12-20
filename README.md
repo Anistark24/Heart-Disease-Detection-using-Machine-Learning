@@ -57,28 +57,17 @@ To build a predictive model that accurately identifies patients at risk of heart
 - **Split Ratio**: 85% training, 15% validation
 - **Random State**: Controlled randomization for reproducibility
 
-## Machine Learning Model
+## Installation & Dependencies
 
-### Algorithm: K-Nearest Neighbors (KNN)
-- **Rationale**: Simple, interpretable, effective for medical classification tasks
-- **Implementation**: Scikit-learn's KNeighborsClassifier
+bash
+# Install required packages
+pip install pandas numpy scikit-learn matplotlib seaborn
 
-## Model Performance
+# Required versions (tested on):
+# Python >= 3.8
+# pandas >= 1.3.0
+# numpy >= 1.21.0
+# scikit-learn >= 0.24.0
 
-### Overall Results
-- **Validation Accuracy**: 88.41%
-- **Best Cross-Validation Score**: 84.46% (during tuning)
-
-### Classification Metrics
-| Metric | No Heart Disease | Heart Disease | Weighted Average |
-|--------|------------------|----------------|------------------|
-| Precision | 93.3% | 84.6% | 88.9% |
-| Recall | 82.4% | 94.3% | 88.4% |
-| F1-Score | 87.5% | 89.2% | 88.3% |
-| Support | 68 | 70 | 138 |
-
-### Confusion Matrix
-- True Negatives: 56
-- False Positives: 12
-- False Negatives: 4
-- True Positives: 66
+## Author
+Aniket Bhatia
