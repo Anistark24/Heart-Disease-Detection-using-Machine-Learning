@@ -1,7 +1,7 @@
 # Heart Disease Prediction Model
 
 ## Overview
-This project develops a machine learning classifier to predict the presence of heart disease in patients using clinical and medical data. The model utilizes the K-Nearest Neighbors (KNN) algorithm with optimized hyperparameters to achieve high predictive accuracy.
+This project develops a machine learning classifier to predict the presence of heart disease in patients using clinical and medical data. Many different models are trained and the final soft voting classifier utilizes all these optimized models to achieve a predictive accuracy of 88.41 %.
 
 ## Project Objective
 To build a predictive model that accurately identifies patients at risk of heart disease based on medical features including age, blood pressure, cholesterol levels, exercise-induced angina, and other clinical indicators.
